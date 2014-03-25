@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Prototype
+        </title>
+        <script type="text/javascript" src="src/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="src/testApp.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+		<b>Marine Research Facility Tycoon</b>
+        <div id="stuff">
+            <div id="textBox">
+                <textarea id="console" class="cons" align="left" readonly="readonly"></textarea>
+                <p></p>
+            </div>
+            <p></p>
+            <div id="buttons">
+                <button id="start" onclick="startGame();">Start Game</button>
+                <p></p>
+                <button onclick="buyResearcher();">Hire Researcher</button><b id="rCost"></b>
+                <p></p>
+                <button onclick="proj1();">Complete Project 1</button>
+                <p></p>
+                <button onclick="proj2();">Complete Project 2</button>
+                <p></p>
+                <button onclick="clearText();">Clear</button>
+            </div>
+			<p></p>
+			<div id="stats">
+				<p><b id="moneyAmt"></b></p>
+				<p><b id="rAmt"></b></p>
+				<p><b id="lvl"></b></p>
+				<p><b id="toNextLvl"></b></p>
+			</div>
+        </div>
+    </body>
+</html>
